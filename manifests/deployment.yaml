@@ -14,7 +14,7 @@ spec:
       spec:
         containers:
         - name: captureorder
-          image: akschallange_tome.azurecr.io/captureorder # replace with your own repository
+          image: akschallangeacr/captureorder # replace with your own repository
           imagePullPolicy: Always
           readinessProbe:
             httpGet:
